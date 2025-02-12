@@ -7,8 +7,51 @@
 </head>
 <style>
 
+	h1::first-letter{
+		color: blue;
+		font-size:50px;
+	}
+
+	h1{
+		position: relative;
+		top:1px;
+		left:5px;
+		
+	}
+
+	span{
+		position: absolute;
+		top: 50px;
+		left: 5px;
+		background-color: aqua;
+		z-index: 1;
+	}
+
+	p{
+		position: fixed;
+		top: 50px;
+		right: 50px;
+
+	}
+
+	body {
+		height: 100vh;
+	}
+	
+	* {
+                box-sizing: border-box;
+        }
+
+        body{
+                display: flex;
+        }
 </style>
 <body>
+
+	<h1>
+		Welcome
+	</h1>
+
 
 
 
